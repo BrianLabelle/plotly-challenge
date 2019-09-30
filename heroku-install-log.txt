@@ -1,0 +1,221 @@
+Microsoft Windows [Version 10.0.18362.356]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd\plotly-challenge
+The system cannot find the path specified.
+
+C:\WINDOWS\system32>cd..
+
+C:\Windows>cd..
+
+C:\>cd heroku
+
+C:\Heroku>cd plotly-challenge
+
+C:\Heroku\plotly-challenge>dir
+ Volume in drive C is Windows
+ Volume Serial Number is ECF8-42B6
+
+ Directory of C:\Heroku\plotly-challenge
+
+09/29/2019  04:38 PM    <DIR>          .
+09/29/2019  04:38 PM    <DIR>          ..
+09/29/2019  04:33 PM    <DIR>          Belly_Button_Diversity
+09/29/2019  04:32 PM                79 initdb.py
+09/29/2019  04:32 PM                46 Procfile
+09/21/2019  11:36 AM               242 requirements.txt
+09/29/2019  04:10 PM                45 run.sh
+09/21/2019  01:17 PM                12 runtime.txt
+               5 File(s)            424 bytes
+               3 Dir(s)  35,036,094,464 bytes free
+
+C:\Heroku\plotly-challenge>git init
+Initialized empty Git repository in C:/Heroku/plotly-challenge/.git/
+
+C:\Heroku\plotly-challenge>heroku git:remote -a bjl-plotly-challenge
+ »   Warning: heroku update available from 7.26.2 to 7.30.0.
+set git remote heroku to https://git.heroku.com/bjl-plotly-challenge.git
+
+C:\Heroku\plotly-challenge>git add .
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/animate.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/et-line.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/fontawesome-all.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/icofont.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/css/plugins/magnific-popup.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/animated.headline.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/countdown.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/isotope.pkgd.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/jquery.appear.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/jquery.stellar.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/particles.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/popper.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Belly_Button_Diversity/static/js/generic/scrollIt.min.js.
+The file will have its original line endings in your working directory
+
+C:\Heroku\plotly-challenge>git commit -am "MAKE IT SO"
+[master (root-commit) 29bdc79] MAKE IT SO
+ 77 files changed, 39219 insertions(+)
+ create mode 100644 Belly_Button_Diversity/.eslintrc.json
+ create mode 100644 Belly_Button_Diversity/DataSets/belly_button_data.csv
+ create mode 100644 Belly_Button_Diversity/DataSets/belly_button_metadata.csv
+ create mode 100644 Belly_Button_Diversity/DataSets/bellybutton.sqlite
+ create mode 100644 Belly_Button_Diversity/Plotly_Grading_Rubric.pdf
+ create mode 100644 Belly_Button_Diversity/README.md
+ create mode 100644 Belly_Button_Diversity/__init__.py
+ create mode 100644 Belly_Button_Diversity/__pycache__/app.cpython-37.pyc
+ create mode 100644 Belly_Button_Diversity/app.py
+ create mode 100644 Belly_Button_Diversity/db/belly_button_biodiversity.sqlite
+ create mode 100644 Belly_Button_Diversity/db/bellybutton.sqlite
+ create mode 100644 Belly_Button_Diversity/models.py
+ create mode 100644 Belly_Button_Diversity/requirements_archive2.txt
+ create mode 100644 Belly_Button_Diversity/static/css/bootstrap-4.3.1.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/animate.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/bootstrap.min.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/et-line.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/fontawesome-all.min.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/helper.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/icofont.css
+ create mode 100644 Belly_Button_Diversity/static/css/plugins/magnific-popup.css
+ create mode 100644 Belly_Button_Diversity/static/css/style.css
+ create mode 100644 Belly_Button_Diversity/static/css/style.css.map
+ create mode 100644 Belly_Button_Diversity/static/css/style.scss
+ create mode 100644 Belly_Button_Diversity/static/fonts/et-line.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/et-line.ttf
+ create mode 100644 Belly_Button_Diversity/static/fonts/et-line.woff
+ create mode 100644 Belly_Button_Diversity/static/fonts/et-lined41d.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-brands-400.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-brands-400.ttf
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-brands-400.woff
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-brands-400.woff2
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-brands-400d41d.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-regular-400.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-regular-400.ttf
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-regular-400.woff
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-regular-400.woff2
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-regular-400d41d.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-solid-900.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-solid-900.ttf
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-solid-900.woff
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-solid-900.woff2
+ create mode 100644 Belly_Button_Diversity/static/fonts/fa-solid-900d41d.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/icofont7858.eot
+ create mode 100644 Belly_Button_Diversity/static/fonts/icofont7858.ttf
+ create mode 100644 Belly_Button_Diversity/static/fonts/icofont7858.woff
+ create mode 100644 Belly_Button_Diversity/static/images/apple-touch-icon.png
+ create mode 100644 Belly_Button_Diversity/static/images/favicon-16x16.png
+ create mode 100644 Belly_Button_Diversity/static/images/favicon-32x32.png
+ create mode 100644 Belly_Button_Diversity/static/images/favicon.ico
+ create mode 100644 Belly_Button_Diversity/static/js/app.js
+ create mode 100644 Belly_Button_Diversity/static/js/bonus.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/animated.headline.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/bootstrap-4.3.1.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/bootstrap.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/countdown.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/isotope.pkgd.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery-3.3.1.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery.appear.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery.count.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery.magnific-popup.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/jquery.stellar.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/owl.carousel.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/particles.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/popper.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/scripts.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/scrollIt.min.js
+ create mode 100644 Belly_Button_Diversity/static/js/generic/side-panel.js
+ create mode 100644 Belly_Button_Diversity/static/video/bacteria007.mp4
+ create mode 100644 Belly_Button_Diversity/templates/index.html
+ create mode 100644 Procfile
+ create mode 100644 initdb.py
+ create mode 100644 requirements.txt
+ create mode 100644 run.sh
+ create mode 100644 runtime.txt
+
+C:\Heroku\plotly-challenge>git add .
+
+C:\Heroku\plotly-challenge>git push heroku master
+Enumerating objects: 87, done.
+Counting objects: 100% (87/87), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (79/79), done.
+Writing objects: 100% (87/87), 8.45 MiB | 697.00 KiB/s, done.
+Total 87 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.6.9
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing python-3.6.2
+remote: -----> Installing pip
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting certifi==2018.4.16 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 1))
+remote:          Downloading https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl (150kB)
+remote:        Collecting click==6.7 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 2))
+remote:          Downloading https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl (71kB)
+remote:        Collecting Flask==1.0.2 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 3))
+remote:          Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
+remote:        Collecting Flask-SQLAlchemy==2.3.2 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 4))
+remote:          Downloading https://files.pythonhosted.org/packages/a1/44/294fb7f6bf49cc7224417cd0637018db9fee0729b4fe166e43e2bbb1f1c8/Flask_SQLAlchemy-2.3.2-py2.py3-none-any.whl
+remote:        Collecting itsdangerous==0.24 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 5))
+remote:          Downloading https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz (46kB)
+remote:        Collecting Jinja2==2.10 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 6))
+remote:          Downloading https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl (126kB)
+remote:        Collecting MarkupSafe==1.0 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 7))
+remote:          Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+remote:        Collecting numpy==1.14.5 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 8))
+remote:          Downloading https://files.pythonhosted.org/packages/68/1e/116ad560de97694e2d0c1843a7a0075cc9f49e922454d32f49a80eb6f1f2/numpy-1.14.5-cp36-cp36m-manylinux1_x86_64.whl (12.2MB)
+remote:        Collecting pandas==0.23.3 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 9))
+remote:          Downloading https://files.pythonhosted.org/packages/f4/cb/a801eaf624e36fffaa6cf1f4597a1e4b0742c200ed928e689c58fb3cb811/pandas-0.23.3-cp36-cp36m-manylinux1_x86_64.whl (8.9MB)
+remote:        Collecting python-dateutil==2.7.3 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 10))
+remote:          Downloading https://files.pythonhosted.org/packages/cf/f5/af2b09c957ace60dcfac112b669c45c8c97e32f94aa8b56da4c6d1682825/python_dateutil-2.7.3-py2.py3-none-any.whl (211kB)
+remote:        Collecting pytz==2018.5 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 11))
+remote:          Downloading https://files.pythonhosted.org/packages/30/4e/27c34b62430286c6d59177a0842ed90dc789ce5d1ed740887653b898779a/pytz-2018.5-py2.py3-none-any.whl (510kB)
+remote:        Collecting six==1.11.0 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 12))
+remote:          Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+remote:        Collecting SQLAlchemy==1.2.10 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 13))
+remote:          Downloading https://files.pythonhosted.org/packages/8a/c2/29491103fd971f3988e90ee3a77bb58bad2ae2acd6e8ea30a6d1432c33a3/SQLAlchemy-1.2.10.tar.gz (5.6MB)
+remote:        Collecting Werkzeug==0.14.1 (from -r /tmp/build_40ab498c9526906cbfa6a026e25ea44d/requirements.txt (line 14))
+remote:          Downloading https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322kB)
+remote:        Installing collected packages: certifi, click, MarkupSafe, Jinja2, itsdangerous, Werkzeug, Flask, SQLAlchemy, Flask-SQLAlchemy, numpy, six, python-dateutil, pytz, pandas
+remote:          Running setup.py install for MarkupSafe: started
+remote:            Running setup.py install for MarkupSafe: finished with status 'done'
+remote:          Running setup.py install for itsdangerous: started
+remote:            Running setup.py install for itsdangerous: finished with status 'done'
+remote:          Running setup.py install for SQLAlchemy: started
+remote:            Running setup.py install for SQLAlchemy: finished with status 'done'
+remote:        Successfully installed Flask-1.0.2 Flask-SQLAlchemy-2.3.2 Jinja2-2.10 MarkupSafe-1.0 SQLAlchemy-1.2.10 Werkzeug-0.14.1 certifi-2018.4.16 click-6.7 itsdangerous-0.24 numpy-1.14.5 pandas-0.23.3 python-dateutil-2.7.3 pytz-2018.5 six-1.11.0
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 80.9M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://bjl-plotly-challenge.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/bjl-plotly-challenge.git
+ * [new branch]      master -> master
+
+C:\Heroku\plotly-challenge>c

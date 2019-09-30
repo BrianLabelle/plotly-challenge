@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="brianjlabelle.yahoo.com" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="Belly Button Biodiversity Dashboard" />
+    <meta name="description" content="Belly Button Biodiversity Dashboard" />
+
+    <!-- Title  -->
+    <title>Belly Button Biodiversity Dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../static/images/favicon.ico">
+    <link rel="apple-touch-icon" href="../static/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../static/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../static/images/favicon-32x32.png">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../static/css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- Start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- End page loading -->
+
+    <!-- Start Header -->
+    <header class="header height-100-vh valign" data-scroll-index="0" data-overlay-dark="6">
+
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg border-none nav-transparent">
+            <div class="container padding-15px-lr md-padding-15px-lr sm-padding-15px-all">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/BrianLabelle/plotly-challenge" >GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- end navbar links -->
+            </div>
+        </nav>
+        <!-- End Navbar  -->
+
+        <!-- Start Video -->
+        <video class="bg-vid" poster="../static/images/down-time.jpg" autoplay="" loop="" muted="">
+            <source src="../static/video/bacteria007.mp4" type="video/mp4">
+        </video>
+        <!-- End Video  -->
+
+        <!-- Start Banner Container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center caption">
+                    <h1 class="banner-headline clip no-margin">
+                        <span class="blc">Belly Button Biodiversity Dashboard</span>
+                    </h1>
+                    <p class="margin-30px-bottom sm-margin-20px-bottom xs-display-none">Use the interactive charts below to explore the dataset</p>
+                    <div class="social-links xs-margin-20px-top">
+   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Banner Container -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start About Section-->  
+    <section data-scroll-index="1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <h5>SELECT Sample:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h6 class="panel-title">Sample MetaData</h6>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div id="pie"></div>
+      </div>
+      <!-- <div class="col-md-5">-->
+       <!--  <div id="guage"></div>-->
+      <!-- </div>-->
+    </div>
+  </div>
+	
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
+
+    </section>
+    <!-- End About Section-->
+
+
+    <!--  Start Footer Section -->
+    <footer class="bg-black">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <span class="font-size13 text-uppercase letter-spacing-1 text-light-gray">&copy; 2019 Labelle is Powered by Navel Lint</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top" class="back-to-top reveal">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- jQuery -->
+    <script src="../static/js/generic/jquery.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="../static/js/generic/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="../static/js/generic/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="../static/js/generic/scrollIt.min.js"></script>
+
+    <!-- animated.headline -->
+    <script src="../static/js/generic/animated.headline.js"></script>
+
+    <!-- jquery.appear -->
+    <script src="../static/js/generic/jquery.appear.js"></script>
+
+    <!-- jquery.count.min -->
+    <script src="../static/js/generic/jquery.count.min.js"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="../static/js/generic/jquery.magnific-popup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="../static/js/generic/jquery.stellar.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="../static/js/generic/isotope.pkgd.min.js"></script>
+
+    <!-- countdown -->
+    <script src="../static/js/generic/countdown.js"></script>
+
+    <!-- custom scripts -->
+    <script src="../static/js/generic/scripts.js"></script>
+
+    <!-- contact form scripts -->
+    <script src="../static/js/mailform/jquery.form.min.js"></script>
+    <script src="../static/js/mailform/jquery.rd-mailform.min.c.js"></script>
+  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+
+</html>
